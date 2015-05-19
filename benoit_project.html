@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="benoit_project.css">
+		<title>Benoit's note on first lesson</title>
+	</head>
+	<body>
+		<div id="TOC">
+			<div id="TOC_title">
+				<h1>Table of contents</h1>
+			</div>
+			<div id="index">
+				<ol>
+					<li>
+						<a href="#lesson1">Lesson 1: The basics of the web and HTML</a>
+						<ul>
+							<li><a href="#some_context">Some context</a></li>
+							<li><a href="#major_pieces">Major pieces</a></li>
+							<li><a href="#HTML">HTML</a></li>
+							<li><a href="#HTML_markups">HTML markups</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#lesson2">Lesson 2: Creating a structured document</a>
+					</li>
+					<li>
+						<a href="#lesson3">Lesson 3: Adding CSS style and HTML structure</a>
+						<ul>
+							<li><a href="#welcome_css">Welcome to CSS</a></li>
+							<li><a href="#webpage_box">Everything in a webpage is a box</a></li>
+							<li><a href="#display_box">Display blocks in the same line</a></li>
+							<li><a href="#ctr">Code, test and refine</a></li>
+						</ul>
+					</li>
+				</ol>	
+			</div>
+		</div>
+		<div class="chapters">
+			<div class="title">
+				<h1 id="lesson1">Lesson 1: The Basics of the web and HTML</h1>
+			</div>
+			<div class="subsection">
+				<h2 id="some_context">Some context</h2>
+				<p><em>World Wide Web</em>: a collection of HTML documents.</p>
+				<p><em>HTML</em>: hypertext Markup Language.</p>
+				<p><em>Hyperlinks</em>: what makes the web web like.</p>
+				<p>What type of files can be found on the web?</p>
+				<ul>
+					<li>Plain text</li>
+					<li>HTML</li>
+					<li>Images</li>
+					<li>Videos</li>
+					<li>Music</li>
+				</ul>
+			</div>
+			<div class="subsection">
+				<h2 id="major_pieces">Major pieces</h2>
+				<div id="images">
+					<img src="http://i2.wp.com/doodleperdiem.com/wp-content/uploads/2013/01/tumblr-doodle-16-triangle-head.png?resize=75,75" alt="someone's picture">
+					<img src="https://c2.staticflickr.com/8/7190/6964501361_6589ec4ed0_s.jpg" alt="laptop">
+					<img src="http://i.utdstc.com/icons/cloud-android.png" alt="internet cloud">
+					<img src="https://www.hosteurope.de/img/icon/icon_75x75_rs.png.pagespeed.ce.60l7_KT4JD.png" alt="a server">
+				</div>
+				<p>The browser makes requests via internet to servers. These requests are
+				using a protocol called HTTP and the servers respond with files that the
+				browser displays.</p>
+			</div>
+			<div class="subsection">
+				<h2 id="HTML">HTML</h2>
+				<p>HTML is made of:<p>
+				<ul>
+					<li><em>text content</em>: What I see</li>
+					<li><em>markup</em>: What it looks like / how it is arranged</li>
+					<li><em>references to other documents</em>: e.g: images, videos.</li>
+					<li><em>links to other pages</em></li>
+				</ul>
+				<p>Plain text is plain text in HTML.</p>
+			</div>
+			<div class="subsection">
+				<h2 id="HTML_markups">HTML Markups</h2>
+				<p>HTML is made of things called <b>tags</b>.</p>
+				<p>We can write it like this: &#60;name&#62;<b>contents</b>&#60;/name&#62;</p>
+				<p>list of the principal tags:</p>
+				<ul>
+					<li><b>&#60;b&#62;</b> -----> bold</li>
+					<li><b>&#60;em&#62;</b> -----> emphasis, italics</li>
+					<li><b>&#60;a href="....."&#62;</b> -----> anchor, anchors are made for links</li>
+					<li><b>&#60;img src="url" alt="text"&#62;</b> - images</li>
+					<li><b>&#60;br&#62;</b> -----> break, inline tag, go to next line</li>
+					<li><b>&#60;p&#62;</b> -----> paragraph, block tag, makes an invisible box</li>
+					<li><b>&#60;span&#62;</b> -----> normal tag, inline</li>
+					<li><b>&#60;div&#62;</b> -----> normal tag, block</li>
+					<li><b>&#60;! DOCTYPE HTML&#62;</b> -----> Doctype to use at the beginning of every html file.</li>
+					<li><b>&#60;html&#62;</b> -----> opening html tag</li>
+					<li><b>&#60;head&#62;</b> -----> metadata and random stuff</li>
+					<li><b>&#60;title&#62;</b> -----> Title that of the page, see it in tab</li>
+					<li><b>&#60;body&#62;</b> -----> The actual content of the HTML document</li>
+				</ul>
+			</div>
+		</div>
+		<div class="chapters">
+			<div class="title">
+				<h1 id="lesson2">Lesson 2: Creating a structured document</h1>
+			</div>
+			<div class="subsection">
+				<p>A website is like a house:</p>
+					<ul>
+						<li>HTML files are like the <em>structure</em>.</li>
+						<li>CSS files are then the <em>style</em> of your house.</li>
+						<li>JS files are the <em>interactive</em> components(e.g: television remote).</li>
+						<li>It also exists some <em>rules</em> to follow(e.g: DOM).</li>
+						<li>Eventually, some <em>tools</em> can help us build our websites(e.g: Chrome developer tools).</li>
+					</ul>
+				<p>
+					The <b>DOM</b>(Document object model) is the tree like structure of an html page that a browser interprets.
+				</p>
+				<p>
+					<b>Everything in a webpage is a box.</b><br>
+					Boxify a design means break down it in several boxes.<br>
+					To help create this box in the html, we can use the <em>div</em> tag.<br>
+					To bring style to this "div", we add the attribute <em>class</em> that allows to use CSS.
+				</p>
+			</div>
+		</div>
+		<div class="chapters">
+			<div class="title">
+				<h1 id="lesson3">Lesson 3: Adding CSS Style to HTML structure</h1>
+			</div>
+			<div class="subsection">
+				<h2 id="welcome_css">Welcome to CSS</h2>
+				<p>CSS is a language that avoids programmers to repeat things over and over. Using html tags and other selectors, you can quickly add the same style to different section of your HTML code. It saves a lot of time and lines of code.</p>
+				<p>In the CSS acronym, C stands for cascading. It is a really interesting rules that means that the most specific CSS rule applies to an HTML element.</p>
+				<p>To style a page using CSS, you need to choose a selector apply some CSS properties. For example, if you want to change the color of an h2 to red you do:<br><br>
+				<span class="highlights">.h2&nbsp;&nbsp;{<br>
+				color: red;<br>
+				}</span></p>
+			</div>
+			<div class="subsection">
+				<h2 id="webpage_box">Everything in a webpage is a box</h2>
+				<p>A web page could be described as a box model: it is a box, that has a box that has a box etc..</p>
+				<p>The box model include, from outside in: margin, border, padding, content. We can find a great explanation here: <a href="http://www.w3schools.com/css/css_boxmodel.asp">W3schools</a></p>
+				<p>The "True" width of an HTML element is the sum of content + padding + border. The box-sizing CSS property specifies that elements should have padding and border included in the element's total width and height. It doesn't include margins</p>
+			</div>
+			<div class="subsection">
+				<h2 id="display_box">Display blocks in the same line</h2>
+				<p>CSS property display sets to value flex allows to display block elements on the same line. For some HTML block elements in a container, CSS property display must be applied to the container so the block elements could be on the same page.</p>
+			</div>
+			<div class="subsection">
+				<h2 id="ctr">CODE, TEST AND REFINE</h2>
+				<p>One you received the deign mockup, you can follow these steps:</p>
+				<ol>
+					<li>Look for the natural boxes and try to boxify the design</li>
+					<li>Look for styles that repeat</li>
+					<li>Write the HTML</li>
+					<li>Apply styles (from the biggest to the smallest)</li>
+					<li>Test and fix</li>
+					<li>Repeat steps 3 to 5 until your webpage matches the design</li>
+				</ol>
+			</div>	
+		</div>		
+	</body>
+</html>
+				
+			
+				
